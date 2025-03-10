@@ -1,0 +1,1153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8" >
+    <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi"
+  >
+    <title>El Van Haz - Personal Portfolio</title>
+    <link rel="icon" type="image/svg" href="images/logo-ie.svg" >
+    <link rel="stylesheet" href="css/font-awesome-pro.css" >
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/scroll_button.css" >
+    <link rel="stylesheet" href="css/spacing.css" >
+    <link rel="stylesheet" href="css/plugin.css" >
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/responsive.css" >
+    <style>
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+      
+      .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: 10% auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 800px;
+      }
+      
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* Untuk aspect ratio 16:9 */
+        height: 0;
+        overflow: hidden;
+      }
+      
+      .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+
+  <body class="home_2">
+    <!--================================
+        PRELOADER START
+    =================================-->
+    <div class="preloader">
+      <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+        <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+      </svg>
+      <h5 class="preloader-text">Loading</h5>
+    </div>
+    <!--================================
+        PRELOADER END
+    =================================-->
+
+    <!--================================
+        SCROLL BUTTON END
+    =================================-->
+    <nav class="main_menu_2">
+      <span class="menu_2_icon">
+        <i class="fa-light fa-bars bar_icon-staggered bar_icon"></i>
+        <i class="fa-light fa-xmark close_icon"></i>
+      </span>
+
+
+      <ul id="list-example" class="list-group">
+        <li>
+          <a
+            class="list-group-item list-group-item-action text_hover_animaiton"
+            href="#banner"
+          >
+            <span
+              ><img
+                src="svg/home-2.svg"
+                alt="icon"
+                class="img-fluid w-100 svg"></span
+            >Home
+          </a>
+        </li>
+        <li>
+          <a
+            class="list-group-item list-group-item-action text_hover_animaiton"
+            href="#about"
+          >
+            <span
+              ><img
+                src="svg/clipboard.svg"
+                alt="icon"
+                class="img-fluid w-100 svg"></span
+            >Tentang 
+          </a>
+        </li>
+        <li>
+          <a
+            class="list-group-item list-group-item-action text_hover_animaiton"
+            href="#service"
+          >
+            <span
+              ><img
+                src="svg/briefcase.svg"
+                alt="icon"
+                class="img-fluid w-100 svg"></span>
+            Service
+          </a>
+        </li>
+        <li>
+          <a
+            class="list-group-item list-group-item-action text_hover_animaiton"
+            href="#skills"
+          >
+            <span
+              ><img src="svg/path.svg" alt="icon" class="img-fluid w-100 svg"></span>
+            skills
+          </a>
+        </li>
+        <li>
+          <a
+            class="list-group-item list-group-item-action text_hover_animaiton"
+            href="#portfolio"
+          >
+            <span
+              ><img
+                src="svg/messages-1.svg"
+                alt="icon"
+                class="img-fluid w-100 svg"></span>
+            portfolio
+          </a>
+        </li>
+       
+        <li>
+          <a
+            class="list-group-item list-group-item-action text_hover_animaiton"
+            href="#contact"
+          >
+            <span
+              ><img
+                src="svg/user-square.svg"
+                alt="icon"
+                class="img-fluid w-100 svg"></span>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!--================================
+        SCROLL BUTTON END
+    =================================-->
+
+    <div class="main">
+      <div
+        data-bs-spy="scroll"
+        data-bs-target="#list-example"
+        data-bs-smooth-scroll="true"
+        class="scrollspy-example"
+        tabindex="0"
+      >
+        <!--================================
+                BANNER 2 START
+            =================================-->
+        <section
+          id="banner"
+          class="tf__banner_2 banner"
+          style="background: url(images/img/pp-2.png)"
+        >
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-xxl-6 col-md-9 col-lg-7">
+                <div class="tf__banner_text">
+                  <h1>
+                    Hi, Saya Imanudin El Van Haz! Developer
+                    <span class="cd-headline rotate-1">
+                      <!-- ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  -->
+                      <span class="cd-words-wrapper">
+                        <b class="is-visible">Mobile</b>
+                        <b>Web</b>
+                      </span>
+                    </span>
+                  </h1>
+                  <p>
+                    Sebagai seorang programmer junior, Saya memiliki semangat dan motivasi yang besar untuk terus belajar dan berkembang di bidang ini. Saya siap untuk mengambil tantangan baru dan bekerja cerdas untuk mencapai tujuan.Dalam beberapa tahun ke depan, Saya berharap untuk terus meningkatkan keterampilan saya dalam pemrograman dan menjadi programmer yang lebih berpengalaman dan terampil. Saya mungkin juga memiliki impian untuk mengembangkan produk atau aplikasi yang inovatif dan bermanfaat bagi masyarakat luas.Dan familiar dengan PHP, HTML, CSS, JavaScript, C++, Flutter, Mysql, Dart, Python, React Native, React JS
+                  </p>
+                  <ul>
+                    <li>
+                      <a class="common_btn" href="https://drive.google.com/file/d/1x2FIapSXl8S3eN1qMyoC6Fz2grx35PKA/view?usp=sharing"
+                        >Download Cv
+                        <i class="fa-solid fa-arrow-down-to-line"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a  id="videoButton" href="javascript:void(0);">
+                        <i class="fa-sharp fa-solid fa-circle-play"></i> Watch the Video
+                      </a>
+                    </li>
+                    
+                    <!-- Modal container untuk iframe -->
+                    <div id="videoModal" class="modal">
+                      <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="video-container">
+                          <!-- iframe akan di-insert di sini secara dinamis -->
+                        </div>
+                      </div>
+                    </div>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================================
+                BANNER 2 END
+            =================================-->
+
+        <!--================================
+                ABOUT 2 START
+            =================================-->
+        <section id="about" class="tf__about_2 pt_130 xs_pt_80">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-9 col-lg-9">
+                <div class="tf__section_heading mb_40">
+                  <h5 class="has-animation">Tentang</h5>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-between">
+              <div class="col-xl-6 col-lg-6">
+                <div class="tf__about_text_2">
+                  <ul>
+                    <li>
+                      <div class="top fade_bottom" data-trigerId="about">
+                        <div class="img">
+                          <img
+                            src="images/icon/about_1.png"
+                            alt="about"
+                            class="img-fluid w-100">
+                        </div>
+                        <div>
+                          <h3>Ambisi Saya</h3>
+                          <p>
+                            Sebagai seorang Mobile dan Web Developer, saya memiliki tekad untuk terus berkembang dan menghadirkan solusi digital yang inovatif serta fungsional. Saya berkomitmen untuk membangun aplikasi dan situs web yang tidak hanya memiliki performa tinggi, tetapi juga memberikan pengalaman pengguna yang optimal.
+
+                            Saya ingin terus memperdalam pemahaman terhadap teknologi terkini, termasuk pengembangan aplikasi lintas platform dan arsitektur backend yang efisien. Dengan pendekatan yang adaptif dan berbasis pada kebutuhan industri, saya berupaya menciptakan produk yang dapat memberikan nilai tambah bagi pengguna dan bisnis.
+                            
+                            Selain itu, saya berambisi untuk meningkatkan efisiensi dalam pengembangan perangkat lunak dengan menerapkan praktik terbaik dalam pengelolaan kode, keamanan, dan optimasi performa. Kolaborasi dengan tim yang memiliki visi yang sama menjadi salah satu prioritas utama saya, agar setiap proyek yang dikerjakan dapat mencapai hasil terbaik.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="top fade_bottom" data-trigerId="about">
+                        <div class="img">
+                          <img
+                            src="images/icon/about_2.png"
+                            alt="about"
+                            class="img-fluid w-100">
+                        </div>
+                        <div>
+                          <h3>Tujuan Saya</h3>
+                          <p>
+                            Mengembangkan Aplikasi Berkualitas
+                            Menciptakan aplikasi mobile dan web yang responsif, intuitif, dan memiliki performa tinggi untuk meningkatkan pengalaman pengguna.
+                            
+                            Meningkatkan Keahlian Teknologi
+                            Terus memperdalam pemahaman terhadap teknologi terbaru, framework, dan bahasa pemrograman agar dapat mengembangkan solusi yang lebih efisien dan inovatif.
+                            
+                            Mengoptimalkan Performa dan Keamanan
+                            Menerapkan praktik terbaik dalam optimasi performa aplikasi serta memastikan keamanan data dan sistem dalam setiap proyek yang dikerjakan.
+                            
+                            Berkontribusi dalam Dunia Digital
+                            Membantu bisnis dan pengguna mendapatkan solusi digital yang tepat guna, baik dalam pengembangan aplikasi skala kecil maupun besar.
+                            
+                            Membangun Karier yang Profesional dan Berkelanjutan
+                            Mengembangkan portofolio proyek yang kuat serta membangun jaringan profesional untuk terus berkembang dalam industri teknologi.
+                            
+                            Beradaptasi dengan Perubahan Industri
+                            Mengikuti perkembangan tren teknologi agar tetap relevan dan mampu bersaing di industri yang terus berubah.
+                            
+                            Bekerja Secara Kolaboratif
+                            Berkontribusi dalam tim yang dinamis dan profesional, serta berperan aktif dalam pengambilan keputusan teknis dan strategis dalam pengembangan aplikasi.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6">
+                <div class="tf__about_img tf__about_img_2">
+                  <img
+                    src="images/img/pp-5.jpeg"
+                    alt="ELVANHAZ"
+                    class="img-fluid w-100">
+                  <div class="tf__about_img_text">
+                    <i class="fa-sharp fa-solid fa-award"></i>
+                    <h4>2+ <span>Years Of Experience</span></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================================
+                ABOUT 2 END
+            =================================-->
+
+        <!--================================
+                SERVICE 2 START
+            =================================-->
+        <section id="service" class="tf__service_2 pt_130 xs_pt_80 animation">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-9 col-lg-9 m-auto">
+                <div class="tf__section_heading mb_40">
+                  <h5 class="has-animation">MY serivce</h5>
+                  <h2 class="has-animation">
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                <div
+                  class="tf__single_service_2 fade_left"
+                  data-trigerId="service"
+                >
+                  <div class="text">
+                    <span>
+                      <img
+                        src="svg/mobile-programming.svg"
+                        alt="service"
+                        class="img-fluid w-100 svg">
+                      <i class="icon-app-development"></i>
+                    </span>
+                    <h3>Website Design</h3>
+                  </div>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                <div
+                  class="tf__single_service_2 fade_left"
+                  data-trigerId="service"
+                >
+                  <div class="text">
+                    <span>
+                      <img
+                        src="svg/mobile.svg"
+                        alt="service"
+                        class="img-fluid w-100 svg">
+                    </span>
+                    <h3>Apps Development</h3>
+                  </div>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================================
+                SERVICE 2 END
+            =================================-->
+
+        <!--================================
+                SKILLS 2 START
+            =================================-->
+        <section
+          id="skills"
+          class="tf__skills_2 pt_115 xs_pt_75 pb_120 xs_pb_80 mt_165 xs_mt_80"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-9 col-lg-9 m-auto">
+                <div class="tf__section_heading mb_30">
+                  <h5 class="has-animation">MY Skills</h5>
+                </div>
+              </div>
+            </div>
+
+           
+            <div class="row">
+              <div class="col-12">
+                <div class="tab-content" id="pills-tabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="row">
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>PT Tujuh Cahaya Teknologi</h3>
+                          <h2>Android Developer</h2>
+                          <h4>Agustus 2024 - Sekarang</h4>
+                          <p>
+                            Merancang dan mengembangkan aplikasi sesuai dengan kebutuhan proyek, 
+                            termasuk analisis kebutuhan, perancangan arsitektur, pengembangan fitur, 
+                            serta pengujian untuk memastikan kualitas dan performa aplikasi yang 
+                            optimal. 
+                          </p>
+                          <div class="tf__team_skills_bar_single">
+                            <p>Performence</p>
+                            <div id="bar1" class="barfiller">
+                              <div class="tipWrap">
+                                <span class="tip"></span>
+                              </div>
+                              <span class="fill" data-percentage="80"></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>Radar Bogor</h3>
+                          <h2>Web Developer</h2>
+                          <h4>DES 2022 – MEI 2023</h4>
+                          <p>
+                            Merancang dan mengembangkan aplikasi Radar Creator yang inovatif untuk 
+                            meningkatkan motivasi karyawan (insentif pegawai). 
+                          </p>
+                          <div class="tf__team_skills_bar_single">
+                            <p>Performence</p>
+                            <div id="bar2" class="barfiller">
+                              <div class="tipWrap">
+                                <span class="tip"></span>
+                              </div>
+                              <span class="fill" data-percentage="75"></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>Radar Bogor</h3>
+                          <h2>Android Developer</h2>
+                          <h4>JULI 2022 – SEPT 2022</h4>
+                          <p>
+                            Merancang dan mengembangkan aplikasi kehadiran berbasis android untuk reporter 
+                            surat kabar. 
+                          </p>
+                          <div class="tf__team_skills_bar_single">
+                            <p>Performence</p>
+                            <div id="bar3" class="barfiller">
+                              <div class="tipWrap">
+                                <span class="tip"></span>
+                              </div>
+                              <span class="fill" data-percentage="75"></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>SMK AMALIAH 1&2 Ciawi</h3>
+                          <h2>Guru Pengganti</h2>
+                          <h4>JAN 2022 – APRIL 2022</h4>
+                          <p>
+                            Guru pengganti spesialis rekayasa perangkat lunak untuk siswa kelas 11 dan 12. 
+                            Memberi materi mengenai bahasa pemrograman dasar, java dan algoritma. 
+                          </p>
+                          <div class="tf__team_skills_bar_single">
+                            <p>Performence</p>
+                            <div id="bar4" class="barfiller">
+                              <div class="tipWrap">
+                                <span class="tip"></span>
+                              </div>
+                              <span class="fill" data-percentage="70"></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>Gymnasium IPB </h3>
+                          <h2>Web Developer</h2>
+                          <h4>JAN 2022 – APRIL 2022</h4>
+                          <p>
+                            Merancang dan mengembangkan website booking lapangan. 
+                            Mengembangkan keahlian bahasa pemrograman html, php, dan css  
+                          </p>
+                          <div class="tf__team_skills_bar_single">
+                            <p>Performence</p>
+                            <div id="bar4" class="barfiller">
+                              <div class="tipWrap">
+                                <span class="tip"></span>
+                              </div>
+                              <span class="fill" data-percentage="70"></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="pills-profile"
+                    role="tabpanel"
+                    aria-labelledby="pills-profile-tab"
+                    tabindex="0"
+                  >
+                    <!-- <div class="row education">
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>MBA</h3>
+                          <h2>University of Dhaka</h2>
+                          <h4>2009 - 2012</h4>
+                          <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit sed thisnquia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>BBA</h3>
+                          <h2>University of Dhaka</h2>
+                          <h4>2009 - 2012</h4>
+                          <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit sed thisnquia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>HSC</h3>
+                          <h2>Govt Bangla College</h2>
+                          <h4>2009 - 2012</h4>
+                          <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit sed thisnquia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>SSC</h3>
+                          <h2>Govt Bangla College</h2>
+                          <h4>2009 - 2012</h4>
+                          <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit sed thisnquia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt
+                          </p>
+                        </div>
+                      </div>
+                    </div> -->
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="pills-contact"
+                    role="tabpanel"
+                    aria-labelledby="pills-contact-tab"
+                    tabindex="0"
+                  >
+                    <!-- <div class="row education">
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>MBA</h3>
+                          <h2>University of Dhaka</h2>
+                          <h4>2009 - 2012</h4>
+                          <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit sed thisnquia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>BBA</h3>
+                          <h2>University of Dhaka</h2>
+                          <h4>2009 - 2012</h4>
+                          <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit sed thisnquia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>HSC</h3>
+                          <h2>Govt Bangla College</h2>
+                          <h4>2009 - 2012</h4>
+                          <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit sed thisnquia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>SSC</h3>
+                          <h2>Govt Bangla College</h2>
+                          <h4>2009 - 2012</h4>
+                          <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit sed thisnquia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt
+                          </p>
+                        </div>
+                      </div>
+                    </div> -->
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="pills-disabled"
+                    role="tabpanel"
+                    aria-labelledby="pills-disabled-tab"
+                    tabindex="0"
+                  >
+                    <!-- <div class="row education">
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>MBA</h3>
+                          <h2>University of Dhaka</h2>
+                          <h4>2009 - 2012</h4>
+                          <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit sed thisnquia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>BBA</h3>
+                          <h2>University of Dhaka</h2>
+                          <h4>2009 - 2012</h4>
+                          <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit sed thisnquia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>HSC</h3>
+                          <h2>Govt Bangla College</h2>
+                          <h4>2009 - 2012</h4>
+                          <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit sed thisnquia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6">
+                        <div
+                          class="tf__single_skill_2 fade_bottom"
+                          data-trigerId="skills"
+                        >
+                          <h3>SSC</h3>
+                          <h2>Govt Bangla College</h2>
+                          <h4>2009 - 2012</h4>
+                          <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit sed thisnquia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt
+                          </p>
+                        </div>
+                      </div>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================================
+                SKILLS 2 END
+            =================================-->
+
+        <!--================================
+                PORTFOLIO 2 START
+            =================================-->
+        <section
+          id="portfolio"
+          class="tf__portfolio tf__portfolio_2 mt_120 xs_mt_80"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-10 col-lg-9 mb_30">
+                <div class="tf__section_heading">
+                  <h5 class="has-animation">Portfolio</h5>
+                  <h2 class="has-animation">
+                 
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+         
+            
+              <div class="col-xl-4 col-sm-6">
+                <a
+                  href="images/img/p-1.jpeg"
+                  class="tf__portfolio_item image_popup"
+                  data-cursor="View <br> Image"
+                >
+                  <img
+                    src="images/img/p-1.jpeg"
+                    alt="portfolio"
+                    class="img-fluid w-100">
+                  <div class="text">
+                    <h4>Aplikasi Radoslaw Optik</h4>
+                    <p>Image</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <a
+                  href="#details-popup"
+                  class="tf__portfolio_item details"
+                  data-cursor="Details <br> View"
+                >
+                  <img
+                    src="images/img/p-2.jpeg"
+                    alt="portfolio"
+                    class="img-fluid w-100">
+                  <div class="text">
+                    <h4>Aplikasi E-Resto</h4>
+                    <p>Modalbox</p>
+                  </div>
+                </a>
+                <div class="mfp-fade mfp-hide" id="details-popup">
+                  <div class="content">
+                    <div class="img">
+                      <img src="images/img/p-2.jpeg" alt="">
+                    </div>
+             
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <a
+                  href="#details-popupss"
+                  class="tf__portfolio_item details"
+                  data-cursor="Details <br> View"
+                >
+                  <img
+                    src="images/img/p-3.jpeg"
+                    alt="portfolio"
+                    class="img-fluid w-100">
+                  <div class="text">
+                    <h4>Aplikasi Bogor Beres</h4>
+                    <p>Modalbox</p>
+                  </div>
+                </a>
+                <div class="mfp-fade mfp-hide" id="details-popupss">
+                  <div class="content">
+                    <div class="img">
+                      <img src="images/img/p-3.jpeg" alt="">
+                    </div>
+             
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <a
+                  href="images/img/p-4.jpeg"
+                  class="tf__portfolio_item image_popup"
+                  data-cursor="View <br> Image"
+                >
+                  <img
+                    src="images/img/p-4.jpeg"
+                    alt="portfolio"
+                    class="img-fluid w-100">
+                  <div class="text">
+                    <h4>Aplikasi Kios-K </h4>
+                    <p>Image</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <a
+                  href="#detailss-popup"
+                  class="tf__portfolio_item details"
+                  data-cursor="Details <br> View"
+                >
+                  <img
+                    src="images/img/p-5.jpeg"
+                    alt="portfolio"
+                    class="img-fluid w-100">
+                  <div class="text">
+                    <h4>Aplikasi Perumahan KAS GROUP </h4>
+                    <p>Modalbox</p>                                     
+                  </div>
+                </a>
+                <div class="mfp-fade mfp-hide" id="detailss-popup">
+                  <div class="content">
+                    <div class="img">
+                      <img src="images/img/p-5.jpeg" alt="">
+                    </div>
+             
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <a
+                  href="#details-popups"
+                  class="tf__portfolio_item details"
+                  data-cursor="Details <br> View"
+                >
+                  <img
+                    src="images/img/p-6.jpeg"
+                    alt="portfolio"
+                    class="img-fluid w-100">
+                  <div class="text">
+                    <h4>Aplikasi Beritanesia</h4>
+                    <p>Modalbox</p>
+                  </div>
+                </a>
+                <div class="mfp-fade mfp-hide" id="details-popups">
+                  <div class="content">
+                    <div class="img">
+                      <img src="images/img/p-6.jpeg" alt="">
+                    </div>
+             
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <a
+                  href="#detailss-popup"
+                  class="tf__portfolio_item details"
+                  data-cursor="Details <br> View"
+                >
+                  <img
+                    src="images/img/p-7.png"
+                    alt="portfolio"
+                    class="img-fluid w-100">
+                  <div class="text">
+                    <h4>Website Insentif Radar Bogor </h4>
+                    <p>https://radarcreator.my.id/signIn</p>                                     
+                  </div>
+                </a>
+                <div class="mfp-fade mfp-hide" id="detailss-popup">
+                  <div class="content">
+                    <div class="img">
+                      <img src="images/img/p-7.png" alt="">
+                    </div>
+             
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <a
+                  href="#details-popups"
+                  class="tf__portfolio_item details"
+                  data-cursor="Details <br> View"
+                >
+                  <img
+                    src="images/img/p-8.png"
+                    alt="portfolio"
+                    class="img-fluid w-100">
+                  <div class="text">
+                    <h4>Website E-resto</h4>
+                    <p>https://resto.demoaplikasi.web.id/</p>
+                  </div>
+                </a>
+                <div class="mfp-fade mfp-hide" id="details-popups">
+                  <div class="content">
+                    <div class="img">
+                      <img src="images/img/p-8.png" alt="">
+                    </div>
+             
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================================
+                PORTFOLIO 2 END
+            =================================-->
+
+        <!--================================
+                BRAND START
+            =================================-->
+     
+        <!--================================
+                BRAND END
+            =================================-->
+
+        <!--================================
+                BLOG 2 START
+            =================================-->
+     
+        <!--================================
+                BLOG 2 END
+            =================================-->
+
+        <!--================================
+                CONTACT 2 START
+            =================================-->
+        <section id="contact" class="tf__contact_2 pt_95 xs_pt_45">
+          <div class="container">
+            <div class="row animation">
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                <div
+                  class="tf__contact_2_text fade_left"
+                  data-trigerId="contact"
+                >
+                  <span>
+                    <img
+                      src="svg/voice_phone.svg"
+                      alt="contact"
+                      class="img-fluid w-100 svg">
+                  </span>
+                  <h3>Phone</h3>
+                  <a href="callto:12345664746846">089607788846</a>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                <div
+                  class="tf__contact_2_text fade_left"
+                  data-trigerId="contact"
+                >
+                  <span>
+                    <img
+                      src="svg/map_issue.svg"
+                      alt="contact"
+                      class="img-fluid w-100 svg">
+                  </span>
+                  <h3>Location</h3>
+               
+                  <a href="#">Bogor</a>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                <div
+                  class="tf__contact_2_text fade_left"
+                  data-trigerId="contact"
+                >
+                  <span>
+                    <img
+                      src="svg/send_mail.svg"
+                      alt="contact"
+                      class="img-fluid w-100 svg">
+                  </span>
+                  <h3>Monday - Sunday</h3>
+                  <a href="mailto:hfavouriteemail@gmail.com"
+                    >elvanhazi@gmail.com</a
+                  >
+                </div>
+              </div>
+            </div>
+         
+          </div>
+        </section>
+        <!--================================
+                CONTACT 2 END
+            =================================-->
+
+        <!--================================
+                FOOTER 2 START
+            =================================-->
+        <div class="footer_2_copyright_area mt_120 xs_mt_80">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="tf__footer_copyright">
+                  <p>© Imanudin EL Van HAz 2025 | All Rights Reserved</p>
+                  <ul>
+                    <li>
+                      <a href="#" class="text_hover_animaiton"
+                        >Trams & Condition</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text_hover_animaiton"
+                        >Privacy Policy</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text_hover_animaiton">Sitemap</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--================================
+                FOOTER 2 END
+            =================================-->
+
+        <!--================================
+                SCROLL BUTTON START
+            =================================-->
+        <div class="progress active">
+          <svg
+            class="progress-svg"
+            width="100%"
+            height="100%"
+            viewBox="-1 -1 102 102"
+          >
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+          </svg>
+        </div>
+        <!--================================
+                SCROLL BUTTON END
+            =================================-->
+        <!--================================
+        CURSOR START
+    =================================-->
+        <div id="magic-cursor">
+          <div id="ball"></div>
+        </div>
+        <!--================================
+        CURSOR END
+    =================================-->
+      </div>
+    </div>
+
+    <script src="js/plugin.js"></script>
+    <!--scroll button js-->
+
+    <script>
+      $(document).ready(function() {
+        // Pas user klik tombol video
+        $("#videoButton").click(function() {
+          // Insert iframe ke dalam container
+          $(".video-container").html('<iframe src="https://www.youtube.com/embed/Myt7GuaW4GY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+          
+          // Tampilin modal
+          $("#videoModal").css("display", "block");
+        });
+        
+        // Pas user klik tombol close
+        $(".close").click(function() {
+          // Remove iframe dari container untuk stop video
+          $(".video-container").empty();
+          
+          // Hide modal
+          $("#videoModal").css("display", "none");
+        });
+        
+        // Pas user klik di luar modal
+        $(window).click(function(event) {
+          if ($(event.target).is("#videoModal")) {
+            $(".video-container").empty();
+            $("#videoModal").css("display", "none");
+          }
+        });
+      });
+    </script>
+    <script src="js/scroll_button.js"></script>
+    <!--sticky sidebar js-->
+    <script src="js/sticky_sidebar.js"></script>
+    <!-- Gsap -->
+    <script src="js/animation.js"></script>
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+  </body>
+
+<!-- Mirrored from zyan.vercel.app/index_2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Mar 2025 06:52:04 GMT -->
+</html>
